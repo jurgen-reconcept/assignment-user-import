@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { rawData } from './raw-data';
 import { MockApiService, RoleTypeEnum } from './mock-api.service';
-import { EMPTY, catchError, mergeAll, switchMap, tap, throwError } from 'rxjs';
+import { EMPTY, catchError, switchMap, tap, throwError } from 'rxjs';
 import { MatDialog } from '@angular/material/dialog';
 import { HerstelformComponent } from './herstelform/herstel.form.component';
 
